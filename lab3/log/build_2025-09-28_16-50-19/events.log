@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (lab_3) JobQueued: {'identifier': 'lab_3', 'dependencies': OrderedDict()}
+[0.000144] (lab_3) JobStarted: {'identifier': 'lab_3'}
+[0.005578] (lab_3) JobProgress: {'identifier': 'lab_3', 'progress': 'cmake'}
+[0.005973] (lab_3) Command: {'cmd': ['/usr/bin/cmake', '/home/soumith/vnav/TEAM_7/lab3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/soumith/vnav/TEAM_7/lab3/install/lab_3'], 'cwd': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'soumith', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib:/home/soumith/vnav_ws/install/lab_3/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/soumith', 'OLDPWD': '/home/soumith/vnav/TEAM_7/lab3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1888', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install:/home/soumith/vnav_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'soumith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soumith', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/soumith-vm:@/tmp/.ICE-unix/1857,unix/soumith-vm:/tmp/.ICE-unix/1857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3df858fc_6630_4451_889c_f2a00afb65c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CNTBD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.307', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.052054] (lab_3) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.090357] (lab_3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.097553] (lab_3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099428] (-) TimerEvent: {}
+[0.138621] (lab_3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.143543] (lab_3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.143754] (lab_3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.143990] (lab_3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.148029] (lab_3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193673] (lab_3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.198863] (lab_3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.199014] (lab_3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.199272] (lab_3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199498] (-) TimerEvent: {}
+[0.200940] (lab_3) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.266319] (lab_3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.298682] (lab_3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299673] (-) TimerEvent: {}
+[0.312012] (lab_3) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.329029] (lab_3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.334589] (lab_3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.341259] (lab_3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.348607] (lab_3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.379921] (lab_3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.381030] (lab_3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399767] (-) TimerEvent: {}
+[0.412025] (lab_3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.421178] (lab_3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.431903] (lab_3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.462199] (lab_3) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[0.494453] (lab_3) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.501055] (-) TimerEvent: {}
+[0.505348] (lab_3) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[0.556318] (lab_3) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.571696] (lab_3) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.575322] (lab_3) StdoutLine: {'line': b'-- Build files have been written to: /home/soumith/vnav/TEAM_7/lab3/build/lab_3\n'}
+[0.580104] (lab_3) CommandEnded: {'returncode': 0}
+[0.580984] (lab_3) JobProgress: {'identifier': 'lab_3', 'progress': 'build'}
+[0.581001] (lab_3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', '--', '-j4', '-l4'], 'cwd': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'soumith', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib:/home/soumith/vnav_ws/install/lab_3/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/soumith', 'OLDPWD': '/home/soumith/vnav/TEAM_7/lab3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1888', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install:/home/soumith/vnav_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'soumith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soumith', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/soumith-vm:@/tmp/.ICE-unix/1857,unix/soumith-vm:/tmp/.ICE-unix/1857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3df858fc_6630_4451_889c_f2a00afb65c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CNTBD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.307', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.601550] (-) TimerEvent: {}
+[0.602264] (lab_3) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/akaze_feature_tracker.cpp.o\x1b[0m\n'}
+[0.602352] (lab_3) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/sift_feature_tracker.cpp.o\x1b[0m\n'}
+[0.602401] (lab_3) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/feature_tracker.cpp.o\x1b[0m\n'}
+[0.611711] (lab_3) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/optical_flow_farneback.dir/src/optical_flow_farneback.cpp.o\x1b[0m\n'}
+[0.702564] (-) TimerEvent: {}
+[0.802779] (-) TimerEvent: {}
+[0.902995] (-) TimerEvent: {}
+[1.003223] (-) TimerEvent: {}
+[1.103450] (-) TimerEvent: {}
+[1.206268] (-) TimerEvent: {}
+[1.306569] (-) TimerEvent: {}
+[1.376595] (lab_3) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/orb_feature_tracker.cpp.o\x1b[0m\n'}
+[1.386137] (lab_3) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/brisk_feature_tracker.cpp.o\x1b[0m\n'}
+[1.392349] (lab_3) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/feature_trackers.dir/src/lk_feature_tracker.cpp.o\x1b[0m\n'}
+[1.406229] (lab_3) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable optical_flow_farneback\x1b[0m\n'}
+[1.406628] (-) TimerEvent: {}
+[1.506780] (-) TimerEvent: {}
+[1.606989] (-) TimerEvent: {}
+[1.707213] (-) TimerEvent: {}
+[1.807441] (-) TimerEvent: {}
+[1.907698] (-) TimerEvent: {}
+[1.963319] (lab_3) StdoutLine: {'line': b'[ 61%] Built target optical_flow_farneback\n'}
+[1.973465] (lab_3) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX static library libfeature_trackers.a\x1b[0m\n'}
+[1.989373] (lab_3) StdoutLine: {'line': b'[ 69%] Built target feature_trackers\n'}
+[1.997426] (lab_3) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/self_flow.dir/src/self_flow.cpp.o\x1b[0m\n'}
+[1.997610] (lab_3) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/track_features.dir/src/track_features.cpp.o\x1b[0m\n'}
+[2.007775] (-) TimerEvent: {}
+[2.111588] (-) TimerEvent: {}
+[2.211781] (-) TimerEvent: {}
+[2.311987] (-) TimerEvent: {}
+[2.412193] (-) TimerEvent: {}
+[2.517017] (-) TimerEvent: {}
+[2.621145] (-) TimerEvent: {}
+[2.723173] (-) TimerEvent: {}
+[2.823530] (-) TimerEvent: {}
+[2.927556] (-) TimerEvent: {}
+[3.033809] (-) TimerEvent: {}
+[3.137812] (-) TimerEvent: {}
+[3.241794] (-) TimerEvent: {}
+[3.346289] (-) TimerEvent: {}
+[3.447881] (-) TimerEvent: {}
+[3.552163] (-) TimerEvent: {}
+[3.656184] (-) TimerEvent: {}
+[3.761025] (-) TimerEvent: {}
+[3.865383] (-) TimerEvent: {}
+[3.970193] (-) TimerEvent: {}
+[4.071271] (-) TimerEvent: {}
+[4.175170] (-) TimerEvent: {}
+[4.275394] (-) TimerEvent: {}
+[4.308221] (lab_3) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable self_flow\x1b[0m\n'}
+[4.376579] (-) TimerEvent: {}
+[4.405126] (lab_3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable track_features\x1b[0m\n'}
+[4.476681] (-) TimerEvent: {}
+[4.577913] (-) TimerEvent: {}
+[4.621254] (lab_3) StdoutLine: {'line': b'[100%] Built target self_flow\n'}
+[4.678218] (-) TimerEvent: {}
+[4.733766] (lab_3) StdoutLine: {'line': b'[100%] Built target track_features\n'}
+[4.738878] (lab_3) CommandEnded: {'returncode': 0}
+[4.739158] (lab_3) JobProgress: {'identifier': 'lab_3', 'progress': 'install'}
+[4.742924] (lab_3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soumith/vnav/TEAM_7/lab3/build/lab_3'], 'cwd': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'soumith', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib:/home/soumith/vnav_ws/install/lab_3/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/soumith', 'OLDPWD': '/home/soumith/vnav/TEAM_7/lab3/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1888', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install:/home/soumith/vnav_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'soumith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soumith', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/soumith-vm:@/tmp/.ICE-unix/1857,unix/soumith-vm:/tmp/.ICE-unix/1857', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3df858fc_6630_4451_889c_f2a00afb65c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CNTBD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.307', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soumith/vnav/TEAM_7/lab3/build/lab_3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/soumith/vnav/TEAM_7/lab3/install/lab_3:/home/soumith/vnav_ws/install/two_drones_pkg:/home/soumith/vnav_ws/install/lab_3:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.745861] (lab_3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.746105] (lab_3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.746380] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/akaze_feature_tracker.h\n'}
+[4.749620] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/brisk_feature_tracker.h\n'}
+[4.752908] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/feature_tracker.h\n'}
+[4.756073] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/lk_feature_tracker.h\n'}
+[4.759166] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/orb_feature_tracker.h\n'}
+[4.762194] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/ring_buffer.hpp\n'}
+[4.765357] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/include/lab_3/sift_feature_tracker.h\n'}
+[4.768684] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/library_path.sh\n'}
+[4.771817] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/library_path.dsv\n'}
+[4.775141] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib/lab_3/track_features\n'}
+[4.778518] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib/lab_3/self_flow\n'}
+[4.778557] (-) TimerEvent: {}
+[4.784326] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/images/box.png\n'}
+[4.787864] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/images/box_in_scene.png\n'}
+[4.791117] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/images/greece.jpg\n'}
+[4.794169] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/images/greece_in_scene.jpg\n'}
+[4.797753] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/launch/self_flow.launch.yaml\n'}
+[4.800824] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/launch/two_frames_tracking.launch.yaml\n'}
+[4.803921] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/launch/video_tracking.launch.yaml\n'}
+[4.807046] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/bags/.gitkeep\n'}
+[4.810234] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib/lab_3/optical_flow_farneback\n'}
+[4.813554] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/ament_index/resource_index/package_run_dependencies/lab_3\n'}
+[4.816549] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/ament_index/resource_index/parent_prefix_path/lab_3\n'}
+[4.820024] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/ament_prefix_path.sh\n'}
+[4.823351] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/ament_prefix_path.dsv\n'}
+[4.826497] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/path.sh\n'}
+[4.829661] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/environment/path.dsv\n'}
+[4.832833] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/local_setup.bash\n'}
+[4.835911] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/local_setup.sh\n'}
+[4.838864] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/local_setup.zsh\n'}
+[4.842090] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/local_setup.dsv\n'}
+[4.845117] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/package.dsv\n'}
+[4.848064] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/ament_index/resource_index/packages/lab_3\n'}
+[4.851168] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.854134] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/cmake/lab_3Config.cmake\n'}
+[4.856997] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/cmake/lab_3Config-version.cmake\n'}
+[4.859997] (lab_3) StdoutLine: {'line': b'-- Symlinking: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/package.xml\n'}
+[4.862886] (lab_3) StdoutLine: {'line': b'-- Installing: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/lib/libfeature_trackers.a\n'}
+[4.863284] (lab_3) StdoutLine: {'line': b'-- Installing: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/cmake/export_lab_3Export.cmake\n'}
+[4.863392] (lab_3) StdoutLine: {'line': b'-- Installing: /home/soumith/vnav/TEAM_7/lab3/install/lab_3/share/lab_3/cmake/export_lab_3Export-noconfig.cmake\n'}
+[4.864264] (lab_3) CommandEnded: {'returncode': 0}
+[4.871175] (lab_3) JobEnded: {'identifier': 'lab_3', 'rc': 0}
+[4.871565] (-) EventReactorShutdown: {}

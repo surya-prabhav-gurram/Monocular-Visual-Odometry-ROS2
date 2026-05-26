@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dc90bf420c150edbbd53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab_3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "feature_trackers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feature_trackers-4358a2308da56831d1a0.json",
+					"name" : "feature_trackers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab_3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab_3_uninstall-7efc3b884f601bf8c99b.json",
+					"name" : "lab_3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "optical_flow_farneback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-optical_flow_farneback-ca5955b4bcaa6bf35a89.json",
+					"name" : "optical_flow_farneback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "self_flow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-self_flow-4083777ab891b1f5ed8c.json",
+					"name" : "self_flow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "track_features::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-track_features-6c8c9d3b216f9a54a7fb.json",
+					"name" : "track_features",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3acedfbe1174213ed7d9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soumith/vnav/TEAM_7/lab3/build/lab_3",
+		"source" : "/home/soumith/vnav/TEAM_7/lab3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

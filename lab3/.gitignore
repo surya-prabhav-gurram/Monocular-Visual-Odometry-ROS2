@@ -1,0 +1,16 @@
+# Ignore bulk outputs and scratch
+output/
+*.zip
+*.bak
+*.save
+
+# Ignore images by default...
+*.png
+*.jpg
+*.jpeg
+
+# ...but DO track curated deliverables
+!deliverables/
+!deliverables/*.png
+!deliverables/*.jpg
+!deliverables/*.jpeg
