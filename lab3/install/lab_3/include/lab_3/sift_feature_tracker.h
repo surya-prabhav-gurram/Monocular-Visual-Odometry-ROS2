@@ -1,1 +1,0 @@
-/home/soumith/vnav/TEAM_7/lab3/include/sift_feature_tracker.h

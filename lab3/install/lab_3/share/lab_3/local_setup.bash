@@ -1,1 +1,0 @@
-/home/soumith/vnav/TEAM_7/lab3/build/lab_3/ament_cmake_environment_hooks/local_setup.bash

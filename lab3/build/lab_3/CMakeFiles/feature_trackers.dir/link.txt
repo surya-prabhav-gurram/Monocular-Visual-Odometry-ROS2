@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfeature_trackers.a CMakeFiles/feature_trackers.dir/src/feature_tracker.cpp.o CMakeFiles/feature_trackers.dir/src/sift_feature_tracker.cpp.o CMakeFiles/feature_trackers.dir/src/akaze_feature_tracker.cpp.o CMakeFiles/feature_trackers.dir/src/orb_feature_tracker.cpp.o CMakeFiles/feature_trackers.dir/src/brisk_feature_tracker.cpp.o CMakeFiles/feature_trackers.dir/src/lk_feature_tracker.cpp.o
-/usr/bin/ranlib libfeature_trackers.a
