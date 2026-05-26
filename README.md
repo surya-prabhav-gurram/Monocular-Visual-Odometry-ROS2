@@ -243,5 +243,4 @@ Typical files:
 
 ## Authors
 - Sai Venkat Reddy Seri
-- Soumith Reddy Asani
 - Surya Prabhav Gurram
